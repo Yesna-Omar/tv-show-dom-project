@@ -1,0 +1,81 @@
+
+body {
+    background-color: rgb(228, 224, 224);
+}
+
+.top-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin: 40px;
+}
+
+.movie-card {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.episode-name-p {
+    font-size: 30px;
+    text-align: center;
+    border: ridge;
+    border-radius: 20px;
+    border-width: 4px;
+    padding: 40px;
+    margin-top: 0px;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.summary-of-episode-p {
+    padding: 40px;
+    color: rgb(134, 131, 131);
+}
+
+#search-input {
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.episode-count {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.web-link {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.dropdown-select {
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 8px;
+
+}
+
+.show-select {
+    margin-left: 42px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.reset-button {
+    margin-left: 8px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.tvShow-button{
+    margin-left: 8px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
